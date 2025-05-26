@@ -1,4 +1,4 @@
-# 🏊 42 Piscine Projects – Francisco Li
+# 🏊 42 Piscine Projects – yufli
 
 Welcome to my 42 Piscine repository! This collection showcases the projects and exercises I completed during the intensive selection process at [42 Barcelona](https://42barcelona.com/), held in 2024. The Piscine was a transformative experience that deepened my understanding of programming fundamentals and honed my problem-solving skills.
 
