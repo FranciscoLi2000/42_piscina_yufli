@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ls -1t | grep -v "^\\." | while read file; do [ -d "$file" ] && printf "%s/, " "$file" || printf "%s, " "$file"; done | sed "s/, \$//"
