@@ -1,8 +1,11 @@
+#include <stdlib.h>
+#include <stddef.h>
 
 int	*ft_range(int min, int max)
 {
 	int	*range;
 	int	len;
+	int	i;
 
 	if (min < max)
 		len = max - min + 1;
