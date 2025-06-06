@@ -36,8 +36,8 @@ void	ft_print_hex(unsigned char c)
 void	ft_print_line(unsigned char *buffer, ssize_t size, unsigned long offset)
 {
 	ssize_t	i;
-	char	offset_str[9];
-	sprintf(offset_str, "%081x    ", offset);
+	char	offset_str[12];
+	snprintf(offset_str, sizeof(offset_str), "%08lx  ", offset);
 	write(1, offset_str, 10);
 	i = 0;
 	while (i < BYTES_PER_LINE)
